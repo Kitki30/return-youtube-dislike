@@ -93,10 +93,31 @@
     "message": "Zaloguj się przez GitHub (kontrybutor)"
   },
   "githubLoginStartFailed": {
-    "message": "Nie udało się zainicjować logowania przez GitHub. Spróbuj ponownie."
+    "message": "Nie udało się rozpocząć logowania przez GitHub. Spróbuj ponownie."
   },
   "githubLoginCompleteFailed": {
     "message": "Nie udało się dokończyć logowania przez GitHub. Spróbuj ponownie."
+  },
+  "githubLoginUnavailable": {
+    "message": "Logowanie się kontrybutora GitHub jest w tej chwili niedostępne. Serwis potrzebuje aktualizacji lub zmiany konfiguracji."
+  },
+  "githubLoginNotContributor": {
+    "message": "Te konto GitHub nie jest kontrybutorem Return YouTube Dislike. Zaloguj się kontem kontrybutora. Niedawne kontrybucje mogą zająć kilka godziń, aby się wyświetlić."
+  },
+  "githubLoginBrowserUnavailable": {
+    "message": "Logowanie się GitHub nie jest skonfigurowane na adres zwrotny (callback) tej przeglądarki. Skontaktuj się z deweloperem."
+  },
+  "githubLoginExpired": {
+    "message": "Ta próba zalogowania się wygasła lub nie mogła zostać zweryfikowana. Spróbuj ponownie."
+  },
+  "githubLoginUpdateRequired": {
+    "message": "Zaktualizuj rozszerzenie, aby użyć logowania się kontrybutora GitHub."
+  },
+  "githubLoginRateLimited": {
+    "message": "Za dużo prób logowania się. Poczekaj chwilę przed ponownymi próbami."
+  },
+  "githubLoginDenied": {
+    "message": "Autoryzacja GitHub została odrzucona. Logowanie się kontrybutora wymaga autoryzacji."
   },
   "patreonLoginCompleteFailed": {
     "message": "Nie udało się dokończyć logowania. Spróbuj ponownie."
@@ -438,10 +459,10 @@
     "message": "Nie udało się wczytać danych o łapkach w dół. Spróbuj odświeżyć stronę."
   },
   "premiumTeaser_breadcrumbsAria": {
-    "message": "Jak odblokować premiumowe statystyki"
+    "message": "Jak odblokować statystyki premium"
   },
   "premiumTeaser_breadcrumbsTitle": {
-    "message": "Odblokuj premiumowe statystyki wideo w trzech prostych krokach:"
+    "message": "Odblokuj statystyki premium wideo w trzech prostych krokach:"
   },
   "premiumTeaser_breadcrumbStep1": {
     "message": "Zaloguj się przez Patreon w oknie rozszerzenia Return YouTube Dislike."
@@ -462,7 +483,7 @@
     "message": "Ulepsz na Patreonie"
   },
   "changelog_title": {
-    "message": "Dziennik zmian Premium Analytics · 20 października 2025 r."
+    "message": "Dziennik zmian analityk premium · 20 października 2025 r."
   },
   "changelog_badge": {
     "message": "Wydanie premium"
@@ -471,7 +492,7 @@
     "message": "Analityka premium w nowym wydaniu"
   },
   "changelog_subheading": {
-    "message": "Przeglądaj oś czasu aktywności na żywo, tabelę wyników najlepszych krajów i interaktywną mapę dołączoną do usługi Return YouTube Dislike Premium."
+    "message": "Przeglądaj oś czasu aktywności na żywo, rankingi najlepszych krajów i interaktywną mapę dołączoną do usługi Return YouTube Dislike Premium."
   },
   "changelog_releaseDate": {
     "message": "Wydany 20 października 2025 r."
@@ -498,13 +519,13 @@
     "message": "Podróżuj po całym świecie lub szukaj w stanach USA, aby wydobyć na powierzchnię gorące punkty. Porównaj polubienia, łapki w dół i ich współczynniki w ulepszonej chmurce podpowiedzi i zwróć uwagę na regiony, które jako pierwsze reagują na przesłane przez Ciebie treści."
   },
   "changelog_feature_quality_title": {
-    "message": "Tabela liderów najlepszych krajów"
+    "message": "Ranking najlepszych krajów"
   },
   "changelog_feature_quality_body": {
     "message": "Uszereguj każdy kraj według surowej aktywności, polubień, łapek w dół lub ich współczynnika. Filtruj przy użyciu tych samych ustawień co na osi czasu, aby dowiedzieć się, dokąd dotrą kampanie i zaplanować, co opublikować w następnej kolejności."
   },
   "changelog_screenshot_placeholder": {
-    "message": "Zrzut ekranu wkrótce — przechwyć ten widok w DevTools, gdy będzie gotowy."
+    "message": "Zrzuty ekranu wkrótce - przechwyć ten widok w DevTools, gdy będzie gotowy."
   },
   "changelog_screenshot_label_timeline": {
     "message": "Symbol zastępczy: przegląd osi czasu"
@@ -528,25 +549,25 @@
     "message": "Wybierz poziom Premium, aby umożliwić przesyłanie strumieniowe danych analitycznych na swoje konto."
   },
   "changelog_upgrade_step3": {
-    "message": "Załaduj ponownie dowolną stronę odtwarzania w YouTube — Twoja oś czasu, mapa i tabele wyników pojawią się natychmiast."
+    "message": "Załaduj ponownie dowolną stronę odtwarzania w YouTube - Twoja oś czasu, mapa i rankingi pojawią się natychmiast."
   },
   "changelog_section_release": {
     "message": "Pokaż najważniejsze informacje"
   },
   "changelog_release_item1": {
-    "message": "Gotowe ustawienia osi czasu aktywności przesyłają strumieniowo dane na żywo z kotwicami zakresu dla pierwszego i najnowszego segmentu."
+    "message": "Gotowe ustawienia osi czasu aktywności przesyłają strumieniowo dane na żywo z punktami odniesienia zakresu dla pierwszego i najnowszego segmentu."
   },
   "changelog_release_item2": {
-    "message": "Tablica liderów krajów odświeża się natychmiast, dzięki czemu możesz wykryć regiony o wzroście popularności bez opuszczania panelu."
+    "message": "Ranking krajów odświeża się natychmiast, dzięki czemu możesz wykryć regiony o wzroście popularności bez opuszczania panelu."
   },
   "changelog_release_item3": {
-    "message": "Interaktywna mapa wyróżnia hotspoty na całym świecie i w stanach USA za pomocą wyraźniejszych podpowiedzi i wskaźników."
+    "message": "Interaktywna mapa wyróżnia gorące punkty na całym świecie i w stanach USA za pomocą wyraźniejszych podpowiedzi i wskaźników."
   },
   "changelog_support_heading": {
     "message": "Potrzebujesz pomocy?"
   },
   "changelog_support_description": {
-    "message": "Jesteśmy tu, jeśli napotkasz przeszkodę — zadaj swoje pytania pracownikom pomocy technicznej lub społeczności."
+    "message": "Jesteśmy tu, jeśli napotkasz przeszkodę - zadaj swoje pytania pomocy technicznej lub społeczności."
   },
   "changelog_support_contact": {
     "message": "Zapytaj społeczność"
@@ -558,7 +579,7 @@
     "message": "Pokaż przykłady przed i po"
   },
   "hideClutterButtonsDescription": {
-    "message": "Zostawia tylko przycisk polubienia i łapkę w dół. Udostępnij, Zapisz, Podziękuj, i inne opcjonalne opcje pozostaną dostępne w menu 3 kropek YouTube'a."
+    "message": "Zostawia tylko przycisk polubienia i łapki w dół. Udostępnij, Zapisz, Podziękuj, i inne opcjonalne opcje pozostaną dostępne w menu 3 kropek YouTube'a."
   },
   "hideClutterButtonsBefore": {
     "message": "Przed: wszystkie przyciski akcji są widoczne"
